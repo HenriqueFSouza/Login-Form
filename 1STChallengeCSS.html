@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style1stchallenge.css">
+    
+    
+    <title>Formulário</title>
+</head>
+
+<body>
+
+    <div> 
+        <h1>Cadastro</h1>
+        <form action="" method="get">
+            <label>Name: </label>
+                <input id="Name" autofocus type="text" placeholder="Type your name" name="Type your name">
+            
+
+            <label>Email:</label>
+                <input id="Email" type="email" placeholder="Type your email" autocomplete="email" name="Type your email">
+            
+            <label> Age:</label>
+                <input id="Age" type="number" min="12" placeholder="Your age" name="Your age">
+           
+            <label>Birthday:</label>
+                <input id="Birthday" type="date" name="Your birthday">
+            
+            <label>
+                Where do you have an account?</label>
+                <input type="checkbox" name="Facebook account?"> Facebook
+                <input type="checkbox" name="Instagram account?"> Instagram
+                <input type="checkbox" name="Youtube account?"> Youtube
+
+            <label>Gender:</label>
+                <input id="Gender" type="radio" required name="Gender"> Male
+                <input id="Gender" type="radio" required name="Gender"> Female
+           
+            <label>Cor dos olhos:</label>
+                <input id="Eye-color" type="color" name="Eye color">
+
+            <label> Biography:</label>
+                <textarea id="Bio" name="Biography"></textarea>
+
+            <label>Profile picture:</label>
+                <input id="Profile-picture" type="file" accept="image/*" name="Profile picture">
+
+            <label>Phone:</label>
+                <input id="Phone"  name="Phone number">
+
+            <label>Facebook profile link:</label>
+                <input id="Face-link" type="url" name="Facebook profile link">
+
+            <label> Password:</label>
+                <input id="Password" type="password" minlength="6" maxlength="8" name="Password">
+            
+            <button id="Reset-button" type="reset" name="Reset button"> Reset</button>
+            <button id="Submit-button" type="submit" name="Submit button"> Submit</button>
+            
+        </form>
+
+    </div>
+
+</body>
+
+</html>
