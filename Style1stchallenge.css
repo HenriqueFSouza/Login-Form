@@ -4,35 +4,35 @@
 
 }
 h1 {
-    color: #16ECF0;
+    color: #D0AB2E;
 }
 body {
-    background-color:#2923CC ;
+    background-color:#403D3D;
 }
 
 div {
-    border-color: #007AE6 ;
+    border-color: #405229;
     border-style: solid;
     border-width: 2px;
     padding: 2px;
 }
 
 label {
-    color: #21A85E;
+    color: #D0AB2E;
     display: block;
     margin: 15px 0px 0px ;
 }
 
 input {
-    border-color: #AE0400;
+    border-color: #FFDB29;
 }
 
 textarea {
-    border-color:#AE0400 ;
+    border-color:#FFDB29 ;
 }
 
 #Reset-button, #Submit-button { 
-    border-color:#AE0400;
+    border-color:#FFDB29;
     margin-top: 20px;
     padding: 10px;
     font-size: 15px;
@@ -45,17 +45,17 @@ textarea {
 
  #Submit-button:hover {
     cursor: pointer; 
-    background-color: #B447EB;
+    background-color: #405229;
     width: 100px;
     height: 50px;
-    border-color: chartreuse;
+    border-color: #B46C36;
     
 }
 
 #Reset-button:hover {
     cursor: pointer; 
-    background-color: #B447EB;
+    background-color: #405229;
     width: 100px;
     height: 50px;
-    border-color: chartreuse;
+    border-color: #B46C36;
 }
